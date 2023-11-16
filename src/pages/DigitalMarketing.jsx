@@ -1,5 +1,6 @@
 import Wrapper from "../components/Wrapper";
 import { dm, dm2 } from "../assets";
+import DigitalMarketingPP from "../components/pricingNplans/DigitalMarketingPP";
 
 const DigitalMarketing = () => {
   return (
@@ -239,6 +240,10 @@ const DigitalMarketing = () => {
           </div>
         </div>
       </section>
+
+      <div>
+        <DigitalMarketingPP />
+      </div>
     </Wrapper>
   );
 };

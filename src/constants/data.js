@@ -81,4 +81,6 @@ const accordionData = [
     content: `We provide support services after recruitment also. Keeping in mind our offshore clients, our executives are available for assistance at all times. So if there are any issues regarding staff hired through us, you can contact our team.`
   }
 ];
+
+
 export { heroBtns, carouselInfo, testimonial, accordionData };

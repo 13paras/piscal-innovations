@@ -1,6 +1,7 @@
-import {  staffConsult } from "../assets";
+import { staffConsult } from "../assets";
 import ServicesNav from "../components/ServicesNav";
 import Wrapper from "../components/Wrapper";
+import StaffRecruitmentPP from "../components/pricingNplans/StaffRecruitmentPP";
 
 const StaffRecruit = () => {
   return (
@@ -18,7 +19,7 @@ const StaffRecruit = () => {
             comprehensive range of services to elevate your workforce and drive success in the
             rapidly evolving technology landscape.
           </h2>
-          <img src={staffConsult} className="rounded-lg mt-10" alt='' />
+          <img src={staffConsult} className='mt-10 rounded-lg' alt='' />
 
           <article className='py-14'>
             <ol className='list-decimal space-y-6 pt-6 text-zinc-700'>
@@ -175,6 +176,11 @@ const StaffRecruit = () => {
               </li>
             </ol>
           </article>
+
+          {/* -----> PlansNPricing <----- */}
+          <div>
+            <StaffRecruitmentPP />
+          </div>
         </section>
       </div>
     </Wrapper>

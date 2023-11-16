@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className='relative flex items-center  justify-between py-3 lg:container lg:mx-auto'>
           <img
             onClick={() => navigate("/")}
-            className='w-12 sm:w-16 lg:w-20 ml-4 md:ml-0 cursor-pointer rounded-full transition-all duration-150 ease-in-out active:scale-95'
+            className='w-12 sm:w-16 lg:w-20 ml-4 lg:ml-0 cursor-pointer rounded-full transition-all duration-150 ease-in-out active:scale-95'
             src={logo}
             alt=''
           />
@@ -78,7 +78,7 @@ const Navbar = () => {
             <li className='relative flex items-center space-x-2'>
               <p className='peer cursor-pointer'>SERVICES </p>
               <svg
-                className='ml-2 mt-1 h-3 w-3 text-gray-800'
+                className='ml-2 h-3 w-3 text-gray-800'
                 aria-hidden='true'
                 xmlns='http://www.w3.org/2000/svg'
                 fill='currentColor'
@@ -86,7 +86,7 @@ const Navbar = () => {
               >
                 <path d='M15.434 1.235A2 2 0 0 0 13.586 0H2.414A2 2 0 0 0 1 3.414L6.586 9a2 2 0 0 0 2.828 0L15 3.414a2 2 0 0 0 .434-2.179Z' />
               </svg>{" "}
-              <ul className='absolute -left-20 top-6 z-10 hidden w-[240px] bg-white text-start pl-3 text-base text-black drop-shadow-lg transition-all duration-100 ease-in-out  hover:block peer-hover:block'>
+              <ul className='absolute -left-20 top-6 z-10 hidden w-[240px] bg-white text-start  text-base text-black drop-shadow-lg transition-all duration-100 ease-in-out  hover:block peer-hover:block'>
                 <li
                   onClick={() => navigate("/consultingServices")}
                   className='mt-5 w-full cursor-pointer px-4 py-3 transition-all duration-150 ease-in-out hover:bg-green hover:text-white'

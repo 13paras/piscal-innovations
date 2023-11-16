@@ -1,7 +1,7 @@
-import React from "react";
 import Wrapper from "../components/Wrapper";
 import ServicesNav from "../components/ServicesNav";
 import { itConsulting } from "../assets";
+import ITConsultingServicePP from "../components/pricingNplans/ITConsultingServicePP";
 
 const ITConsultingServices = () => {
   return (
@@ -230,6 +230,10 @@ const ITConsultingServices = () => {
                 </div>
               </div>
           </section>
+
+          <div>
+            <ITConsultingServicePP />
+          </div>
 
             <p className="mt-10 text-white bg-greenGradient rounded-md my-16 py-10 space-y-4 px-6">
               At Piscal Innovations, we dont just provide IT services; we deliver transformative

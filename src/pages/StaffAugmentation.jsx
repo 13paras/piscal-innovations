@@ -1,6 +1,7 @@
 import Wrapper from "../components/Wrapper";
 import ServicesNav from "../components/ServicesNav";
 import { chooseUs, staffAugmentation } from "../assets";
+import StaffAugmentationPP from "../components/pricingNplans/StaffAugmentationPP";
 
 const StaffAugmentation = () => {
   return (
@@ -301,7 +302,11 @@ const StaffAugmentation = () => {
                 organizational culture.
               </li>
             </ul>
+
           </section>
+            <div>
+<StaffAugmentationPP />
+            </div>
 
           <div className="bg-greenGradient rounded-md my-16 py-10 space-y-4 px-6">
                 <h3 className='text-xl font-semibold text-white'>Contact Piscal Innovations:</h3>
